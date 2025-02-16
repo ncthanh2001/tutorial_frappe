@@ -4,6 +4,8 @@ app_publisher = "ThanhNC"
 app_description = "Tutorial"
 app_email = "chithanh03062001@gmail.com"
 app_license = "mit"
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 
 # Apps
 # ------------------
@@ -242,3 +244,5 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+website_route_rules = [{'from_route': '/Tutorial_Page/<path:app_path>', 'to_route': 'Tutorial_Page'}, {'from_route': '/Tutorial Page/<path:app_path>', 'to_route': 'Tutorial Page'},]
