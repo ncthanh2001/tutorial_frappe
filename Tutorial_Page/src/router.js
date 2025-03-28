@@ -13,6 +13,35 @@ const routes = [
     path: '/account/login',
     component: () => import('@/pages/Login.vue'),
   },
+  {
+    name: 'ListUser',
+    path: '/user/list-user',
+    component: () => import('@/pages/User.vue'),
+  },
+  {
+    name: 'Flowbite',
+    path: '/flowbite/component',
+    component: () => import('@/pages/Flowbite.vue'),
+  },
+  ,
+  {
+    name: 'Home learn',
+    path: '/home/learn',
+    component: () => import('@/pages/learn_vuejs/Home.vue'),
+    children: [
+      { path: 'footer', component: () => import('@/pages/footer/footer.vue') }, 
+    ]
+  }
+  , {
+    name: 'About',
+    path: '/about',
+    component: () => import('@/pages/footer/footer.vue'),
+    // children: [
+    //   { path: 'profile', component: Profile },
+    //   { path: 'settings', component: Settings }
+    // ]
+  }
+
 ]
 
 let router = createRouter({

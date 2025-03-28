@@ -1,0 +1,44 @@
+.gantt-popup {
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gantt-popup h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.gantt-popup p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Task status colors */
+.task-status-open {
+    background-color: #ffd700;
+}
+
+.task-status-in-progress {
+    background-color: #4CAF50;
+}
+
+.task-status-completed {
+    background-color: #2196F3;
+}
+
+.task-status-cancelled {
+    background-color: #f44336;
+}
+
+/* Gantt container */
+#gantt {
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+} 

@@ -6,7 +6,6 @@ app_email = "chithanh03062001@gmail.com"
 app_license = "mit"
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
-
 # Apps
 # ------------------
 
